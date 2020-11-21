@@ -1,16 +1,18 @@
-# todo_app
+# ToDo App
 
-A new Flutter application.
+Diese ToDo App ist Teil meiner YouTube Tutorialreihe wie man Apps mit Flutter programmieren kann.
+In dieser Reihe zeige ich dir wie du eine App entwickeln kannst von der Installation von Flutter
+bis zu der Veröffentlichung deiner App in dem Google Play Store oder im Apple App Store.
 
-## Getting Started
+### Videos
 
-This project is a starting point for a Flutter application.
+Alle Videos [dieser](https://www.youtube.com/playlist?list=PL51c9RJgzH9DgVNsfzuUKiV2eWrEc3uP) Reihe kannst du in dieser Playliste finden:
 
-A few resources to get you started if this is your first Flutter project:
+**Alle Videos**: https://www.youtube.com/playlist?list=PL51c9RJgzH9DgVNsfzuUKiV2eWrEc3uP-
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### App selbst ausprobieren
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Du kannst die App selber auf deinem Android Handy ausprobieren indem du die App in Form einer .apk über den
+folgenden Link herunterlädst und installierst. Du kannst die App aber auch gerne selber compilen ;)
+
+**App**: X
