@@ -26,7 +26,9 @@ class _HomePageState extends State<HomePage> {
               SizedBox(height: 30,),
               TodoItem(name: "Hallo Welt", isActive: false),
               SizedBox(height: 10,),
-              TodoItem(name: "Hallo Welt", isActive: true),
+              TodoItem(name: "Hallo Welt hashddddddddddddddddddddddddddddddds", isActive: true),
+              SizedBox(height: 10,),
+              TodoItem(name: "Hallo", isActive: true),
             ],
           )
         ),

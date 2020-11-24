@@ -16,12 +16,18 @@ class TodoItem extends StatefulWidget {
 class _TodoItemState extends State<TodoItem> {
   @override
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceAround,
-      children: [
-        Text(widget.name, style: TextStyle(fontSize: 17, color: Colors.grey),),
-        Check(isActive: widget.isActive,)
-      ],
+    return Padding(
+      padding: EdgeInsets.symmetric(vertical: 10, horizontal: 50),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Container(
+            width: MediaQuery.of(context).size.width / 100 * 50,
+            child: Text(widget.name, style: TextStyle(fontSize: 17, color: Colors.grey),),
+          ),
+          Check(isActive: widget.isActive,)
+        ],
+      ),
     );
   }
 }
