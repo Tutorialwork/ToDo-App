@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:intl/intl.dart';
 
 class Navbar extends StatelessWidget {
   @override
@@ -12,17 +11,17 @@ class Navbar extends StatelessWidget {
           children: [
             Row(
               children: [
-                Text(DateFormat('d').format(DateTime.now()), style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
+                Text('17', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
                 SizedBox(width: 10,),
                 Column(
                   children: [
-                    Text(DateFormat('MMM').format(DateTime.now()).toUpperCase(), style: TextStyle(fontWeight: FontWeight.bold),),
-                    Text(DateFormat('y').format(DateTime.now()))
+                    Text('NOV', style: TextStyle(fontWeight: FontWeight.bold),),
+                    Text('2020')
                   ],
                 ),
               ],
             ),
-            Text(DateFormat('EEEE').format(DateTime.now()).toUpperCase())
+            Text('DIENSTAG')
           ],
         ),
       ],
